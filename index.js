@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import CheckboxExampleToggle from './CheckboxExampleToggle';
 import './style.css';
 
+
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      name: 'React'
+
     };
   }
 
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
         <p>
           Start editing to see some magic happen :)
         </p>
+        <CheckboxExampleToggle />
       </div>
     );
   }
