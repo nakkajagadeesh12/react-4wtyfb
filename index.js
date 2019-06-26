@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import CheckboxExampleToggle from './CheckboxExampleToggle';
+import { Checkbox } from 'semantic-ui-react';
 import './style.css';
 
 
@@ -18,7 +18,9 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
-        <CheckboxExampleToggle />
+
+      
+        <p>working</p>
       </div>
     );
   }
